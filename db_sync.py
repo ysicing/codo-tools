@@ -33,7 +33,7 @@ def create():
     project_base.metadata.create_all(engine)
     event_record_base.metadata.create_all(engine)
     paid_base.metadata.create_all(engine)
-    print('[Success] 表结构创建成功!')
+    print('[Success] Table structure created!')
 
 
 def drop():
